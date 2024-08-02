@@ -1,0 +1,490 @@
+.button{
+    background:none;
+    border: 4px solid #2ecc71;
+    color: #2ecc71;
+    padding: 10px 30px;
+
+}
+
+.clear-fix{clear: both;}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+header .slider{
+    background-color: #d3d3d3;
+    height:calc(100vh - 71px);
+    background-image:url(../images/th.jpg);
+    background-size: cover;
+}
+
+header .slider .intro{
+    height:calc(100vh - 71px);
+    text-align: center;
+    padding-top: 200px;
+    color: #fff;
+}
+
+header .slider .intro h2{
+    margin: 0% auto;
+    font-size: 50px;
+    width: 600px;
+    padding: 5px 0;
+    text-shadow: 2px 2px 3px rgb(0 0 0);
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+
+header .slider .intro button{
+    color: #fff;
+    text-shadow: 1px 1px 3px rgb(0 0 0);
+    font-size: 20px;
+    border-color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+} 
+
+header .navbar{
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden;
+    height: 71px;
+}
+
+header .navbar h2{
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header .navbar h2 span {
+    color: #2ecc71;
+    letter-spacing: 3px;
+}
+
+header .navbar ul{
+    list-style: none;
+    padding: 0%;
+    float: right;
+
+}
+
+header .navbar ul li {
+    float: left;
+    padding: 10px;
+
+}
+
+header .navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header .navbar ul li.active a,
+header .navbar ul li a:hover{
+    color: #308576;
+}
+
+.featuers{
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.featuers .feat{
+    float: left;
+    width: calc(100% / 3);
+    height: 150px;
+}
+
+.featuers .feat h2{
+    text-transform: uppercase;
+    color: #444;
+    margin-top: 0;
+}
+
+.featuers .feat p{
+    line-height: 1.8;
+    color: #888;
+}
+
+.about-me{
+    background-color: #f2f2f2;
+    overflow: hidden;
+    height: 526.5px;
+}
+
+.about-me .image{
+    float: left;
+    width: 40%;
+}
+
+.about-me .image img{
+    width: 100%;
+}
+
+.about-me .info{
+    float: left;
+    text-align: left;
+    width: 60%;
+}
+
+.about-me .info h2{
+    margin: 40px 0 20px 40px;
+    color: #555;
+}
+
+.about-me .info>p{
+    margin: 0 0 10px 40px;
+}
+
+.about-me .info>p:last-of-type{
+    margin: 20px 0 10px 40px;
+}
+
+.about-me .info p{
+    line-height: 1.7;
+    color: #888;
+}
+
+.about-me .info .hobbies{
+    overflow: hidden;
+    margin: 20px 0 0 40px;
+    width: 100%;
+}
+
+.about-me .info .hobbies h3{
+    color: #555;
+}
+
+.about-me .info .hobbies>div{
+    width: 45%;
+    float: left;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.about-me .info .hobbies>div i{
+    font-size: 70px;
+    width: 22%;
+    color:#2ecc71;
+}
+
+.about-me .info .hobbies>div .text{
+    width: 72%;
+}
+
+
+.my-skills{
+    padding: 30px 0 50px;
+    overflow: hidden;
+}
+
+.my-skills .skills h2{
+    margin: 40px 0 20px 40px;
+    color: #555;
+}
+
+.my-skills .skills p{
+    margin: 0 0 10px 40px;
+}
+
+.my-skills .skills p:last-of-type{
+    margin: 20px 0 10px 40px;
+}
+
+.my-skills .skills p{
+    line-height: 1.7;
+    color: #888;
+}
+
+
+.my-skills .skills button{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+
+.my-skills .skills,
+.my-skills .profgress{
+    width: 50%;
+    float: left;
+}
+
+.my-skills .profgress .technique{margin-left: 30px;}
+
+.my-skills .profgress .technique h3{
+    color: #555;
+}
+
+.my-skills .profgress .technique div{
+    background-color: #f2f2f2;
+    height: 30px;
+}
+
+.my-skills .profgress .technique div span{
+    display: block;
+    background-color: #2ecc71;
+    height: 100%;
+    padding-right: 2%;
+    line-height: 30px;
+    text-align: right;
+    color: #fff;
+    font-weight: bold;
+}
+
+.resome{
+    background-color: #f2f2f2;
+    padding: 30px 0 70px;
+    text-align: center;
+}
+.resome h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #666;
+}
+
+.resome button{
+    margin-top: 20px;
+}
+
+.my-education{
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+.my-education hr{
+    margin: 20px 0;
+    background-color: #999;
+    border: none;
+    height: 1px;
+}
+
+.my-education .main{
+    width: 45%;
+    float: left;
+    margin-right: 10%;
+}
+
+.my-education .main h2{
+    margin: 40px 0 20px 40px;
+    color: #555;
+}
+
+.my-education .main p{
+    margin: 0 0 10px 40px;
+}
+
+.my-education .main p:last-of-type{
+    margin: 20px 0 10px 40px;
+}
+
+.my-education .main p{
+    line-height: 1.7;
+    color: #888;
+}
+
+.my-education .exp{
+    width: 45%;
+    float: left;
+}
+
+.my-education .exp h3{
+    margin: 87px 0 5px;
+}
+
+.my-education .exp span{
+    display: block;
+}
+
+.my-education .exp span:first-of-type{
+    color: #999;
+}
+
+.my-education .exp span:last-of-type{
+    color: #fff;
+    background-color: #2ecc71;
+    width: fit-content;
+    padding: 2px 10px;
+}
+
+
+.my-education .exp p{
+    line-height: 1.7;
+    color:#777 ;
+
+}
+
+.Testiemonials{
+    background-color: #f2f2f2;
+    padding: 50px 0 70px;
+    text-align: center;
+}
+
+.Testiemonials blockquote{
+    line-height: 1.7;
+    color: #888;
+    font-size: 18px;
+    font-style:italic ;
+    font-weight: bold;
+}
+
+.Testiemonials h3{
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.Testiemonials ul{
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.Testiemonials ul li{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #2ecc71;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.Testiemonials ul li.active,
+.Testiemonials ul li:hover{
+    background-color: #2ecc71;
+    cursor: pointer;
+}
+
+.Partiofolio{
+    padding: 50px 0 70px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Partiofolio p{
+    line-height: 1.7;
+    color: #666;
+}
+
+.Partiofolio .our-work{
+    overflow: hidden;
+}
+
+.Partiofolio .our-work>div{
+    float: left;
+    width: calc(100% / 3);
+}
+
+.Partiofolio .our-work>div img{
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 10px 10px 12px #ccc;
+}
+
+.contact{
+    background-color: #252f31;
+    overflow: hidden;
+    padding-bottom: 50px;
+    height: calc(100vh - 159px);
+}
+
+.contact .info{
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+}
+
+.contact .info h2{
+    color: #fff;
+    margin:50px 70px 20px 40px;
+}
+
+.contact .info p{
+    color:#6a6e71;
+    margin: 0 0 0 40px;
+}
+
+.contact .info p:nth-last-of-type(2){
+    margin: 20px 0 20px 40px;
+}
+
+.contact .info p strong{
+    color: #d1d6da;
+}
+
+.contact .form{
+    width: 45%;
+    float: left;
+}
+
+.contact .form form label:first-of-type{
+    margin:98px 0 10px 0;
+}
+
+.contact .form form label{
+    display: block;
+    color:#d1d6da ;
+    margin:10px 0 10px 0;
+}
+
+.contact .form form input{
+    background-color: #4b5557;
+    color: #fff;
+    padding: 10px;
+    width: 80%;
+    border: 0;
+}
+
+.contact .form form textarea{
+    background-color: #4b5557;
+    color: #fff;
+    padding: 10px;
+    width: 80%;
+    border: 0;
+    height: 80px;
+}
+
+.contact .form form button{
+    background-color: #191e22;
+    color: #fff;
+    padding: 10px 30px;
+    border: 0;
+    margin-top:10px ;
+}
+
+footer{
+    background-color: #191e22;
+    color: #6a6e71;
+    padding: 20px 0;
+    text-align: center;
+    height: 69px;
+}
+
+footer span{
+    display: block;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0;justify-content: center;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #4b5557;
+    margin-right:10px ;
+    transition: 1s;
+}
+
+footer ul li:hover a{
+
+    color: #69777a;
+
+}
