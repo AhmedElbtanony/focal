@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,26 +12,26 @@
     </head>
     <body>
         <header>
+            <div class="navbar">
+                <div class="container">
+                    <h2>Ah<span>med</span></h2>
+                    <ul>
+                        <li id="1" onclick="active(1)" class="active"><a href="#"> Home</a></li>
+                        <li id="2" onclick="active(2)"><a href="#about-me"> About me</a></li>
+                        <li id="3" onclick="active(3)"><a href="#skills"> Skills</a></li>
+                        <li id="4" onclick="active(4)"><a href="#resome"> Resome</a></li>
+                        <li id="5" onclick="active(5)"><a href="#testiemonials"> Testiemonials</a></li>
+                        <li id="6" onclick="active(6)"><a href="#partiofolio"> Partiofol io</a></li>
+                        <li id="7" onclick="active(7)"><a href="#contact"> Contact me</a></li>
+                    </ul>
+                </div>
+            </div>
             <div class="slider">
                 <div class="container">
                     <div class="intro">
                         <h2>wep &amp; grafic desiner</h2>
                         <button class="button" type="button">lern more</button>
                     </div>
-                </div>
-            </div>
-            <div class="navbar">
-                <div class="container">
-                    <h2>Ah<span>med</span></h2>
-                    <ul>
-                        <li class="active"><a href="#"> Home</a></li>
-                        <li><a href="#about-me"> About me</a></li>
-                        <li><a href="#skills"> Skills</a></li>
-                        <li><a href="#resome"> Resome</a></li>
-                        <li><a href="#testiemonials"> Testiemonials</a></li>
-                        <li><a href="#partiofolio"> Partiofol io</a></li>
-                        <li><a href="#contact"> Contact me</a></li>
-                    </ul>
                 </div>
             </div>
         </header>
@@ -307,5 +307,7 @@
                 <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
             </ul>
         </footer>
+        <button onclick="window.scroll(0 ,0);active(1)" class="to-top"><i class="fa-solid fa-arrow-up"></i></button>
+        <script src="script.js"></script>
     </body>
 </html>

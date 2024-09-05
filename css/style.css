@@ -1,3 +1,12 @@
+:root{
+    --nav-height:71px;
+}
+
+.html{
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--nav-height);
+}
+
 .button{
     background:none;
     border: 4px solid #2ecc71;
@@ -11,6 +20,10 @@
 .container{
     width: 1170px;
     margin: auto;
+}
+
+header{
+    margin-top: var(--nav-height);
 }
 
 header .slider{
@@ -50,7 +63,11 @@ header .navbar{
     background-color: #252f31;
     color: #fff;
     overflow: hidden;
-    height: 71px;
+    height: var(--nav-height);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 10px #000;
 }
 
 header .navbar h2{
@@ -80,6 +97,7 @@ header .navbar ul li {
 header .navbar ul li a{
     color: #fff;
     text-decoration: none;
+    transition: .5s;
 }
 
 header .navbar ul li.active a,
@@ -484,7 +502,37 @@ footer ul li a{
 }
 
 footer ul li:hover a{
-
     color: #69777a;
+}
 
+.to-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #252f31;
+    color: #fff;
+    position: fixed;
+    right: 25px;
+    border: 0.1px solid black;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    bottom: 10px;
+    height: 50px;
+    width: 50px;
+    transition: .5s;
+    font-size: 15px;
+}
+
+.to-top i{
+    transition: .5s;
+}
+
+.to-top:hover i{
+    color: #2ecc71;
+    text-shadow: 0 0 10px #fff;
+}
+
+.to-top:active i{
+    color: #2ecc71;
+    text-shadow: 0 0 100px #fff;
 }
